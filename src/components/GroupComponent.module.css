@@ -1,0 +1,128 @@
+.frameChild {
+  width: 660px;
+  height: 313px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  display: none;
+  max-width: 100%;
+}
+.ofOurCustomers,
+.transcendsOurSoftware,
+.weAlighnOur {
+  margin: 0;
+}
+.weAlighnOurContainer {
+  margin: 0;
+  height: 126px;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.component28Icon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.component28Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.ashleyCooper,
+.component29Icon {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.ashleyCooper {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-family: inherit;
+}
+.component29Icon {
+  width: 85.4px;
+  height: 14.6px;
+}
+.ashleyCooperParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-8);
+}
+.ashleyCooperParent,
+.frameGroup,
+.frameItem {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  width: 209px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameItem {
+  height: 54px;
+  width: 67.5px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs-9);
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangleParent {
+  width: 660px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-22xl) var(--padding-20xl) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-26xl);
+  debug_commit: bf4bc93;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--colors-neutral-white);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 825px) {
+  .rectangleParent {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .weAlighnOurContainer {
+    line-height: 34px;
+  }
+  .ashleyCooper,
+  .weAlighnOurContainer {
+    font-size: var(--font-size-2xl);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

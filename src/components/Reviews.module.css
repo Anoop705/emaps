@@ -1,0 +1,168 @@
+.frameChild {
+  width: 660px;
+  height: 313px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  display: none;
+  max-width: 100%;
+}
+.guys,
+.iLoveRecommending,
+.iReallyLike {
+  margin: 0;
+}
+.iReallyLikeContainer {
+  margin: 0;
+  height: 126px;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.avataruserpicIcon,
+.component28Icon {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.avataruserpicIcon {
+  top: 0;
+  z-index: 2;
+}
+.testimonialAuthorDetails {
+  height: 61px;
+  width: 60px;
+  position: relative;
+}
+.ashleyCooper,
+.component29Icon {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.ashleyCooper {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-family: inherit;
+}
+.component29Icon {
+  width: 85.4px;
+  height: 14.6px;
+}
+.testimonialAuthorPosition {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xs-8);
+  min-width: 279px;
+  max-width: 100%;
+}
+.invertedCommaIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.invertedCommaWrapper {
+  height: 55.1px;
+  width: 67.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.rectangleParent,
+.reviews,
+.testimonialAuthorInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.testimonialAuthorInfo {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-3xs);
+}
+.rectangleParent,
+.reviews {
+  box-sizing: border-box;
+}
+.rectangleParent {
+  width: 660px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-22xl) var(--padding-20xl) var(--padding-21xl);
+  gap: var(--gap-26xl);
+  debug_commit: bf4bc93;
+}
+.reviews {
+  width: 1875px;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: 0 var(--padding-173xl);
+  gap: var(--gap-11xl);
+  z-index: 1;
+  margin-top: -654px;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--colors-neutral-white);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 1400px) {
+  .reviews {
+    padding-left: var(--padding-77xl);
+    padding-right: var(--padding-77xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .rectangleParent {
+    gap: var(--gap-3xl);
+  }
+  .reviews {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-29xl);
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .iReallyLikeContainer {
+    line-height: 34px;
+  }
+  .ashleyCooper,
+  .iReallyLikeContainer {
+    font-size: var(--font-size-2xl);
+  }
+  .reviews {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

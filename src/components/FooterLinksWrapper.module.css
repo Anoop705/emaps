@@ -1,0 +1,108 @@
+.header {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.footerLinkColumns,
+.headerText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinkColumns {
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--font-size-5xl);
+}
+.button,
+.iconly {
+  position: relative;
+}
+.iconly {
+  height: 18px;
+  width: 18px;
+}
+.button {
+  display: inline-block;
+  min-width: 53px;
+}
+.buttonText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+}
+.iconly1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.button1 {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.buttonText1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+}
+.iconly2 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.button2 {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.buttonText2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+}
+.iconly3 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.button3 {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.buttonText3,
+.footerLinksWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonText3 {
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+}
+.footerLinksWrapper {
+  flex-direction: column;
+  gap: var(--gap-xl-8);
+  text-align: left;
+  font-size: var(--body-paragraph-16px-sb-size);
+  color: var(--colors-neutral-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .header {
+    font-size: var(--font-size-lgi);
+  }
+}
